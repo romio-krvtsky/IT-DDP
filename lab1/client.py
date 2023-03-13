@@ -45,7 +45,7 @@ while True:
 
     # receive confirmation message from server
     response, _ = client_socket.recvfrom(4096)
-
+    client_messages.append(response.decode())
     # decode message and print response
     print(response.decode())
 
