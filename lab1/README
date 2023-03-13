@@ -1,0 +1,5 @@
+This is an application for client-server communication with the help of Socket API. 
+Initial connection and message exchange via UDP. Only one to one connection is supported.
+Each client stores message history. If the same client connects after a disconnect, messages have to be recovered and displayed by reconnected client. 
+To distinguish between clients, an unique identifier should be generated for each client.
+
